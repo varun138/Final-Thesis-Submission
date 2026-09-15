@@ -1,0 +1,7 @@
+sub_table,applicants_covered,coverage_%,total_rows,median_rows_per_applicant
+bureau,31584,82.2,155675,4
+previous_application,37083,96.5,183106,4
+POS_CASH_balance,36827,95.9,1057554,22
+credit_card_balance,12095,31.5,394189,18
+installments_payments,37130,96.7,1442792,25
+bureau_balance,11228,29.2,1547388,92

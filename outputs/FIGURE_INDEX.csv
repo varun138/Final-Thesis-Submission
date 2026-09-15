@@ -1,0 +1,21 @@
+stage,file,caption
+1 EDA,eda_01_class_imbalance_full.png,"Class distribution of the target variable in the full application population (n = 307,511); defaults represent 8.1% of cases."
+1 EDA,eda_02_default_rate_by_organisation.png,"Default rate by organisation type for categories with at least 2,000 applicants. The Self-employed group (highlighted) is the MSME proxy adopted for this study."
+1 EDA,eda_03_missingness_top25.png,The 25 features with the highest proportion of missing values in the MSME proxy sub-population. Building-information and external-score fields dominate.
+1 EDA,eda_04_key_distributions.png,"Kernel-density comparison of applicant age, employment length, annual income (log10) and requested credit amount (log10) between repaid and defaulted loans in the MSME proxy."
+1 EDA,eda_05_ext_source_distributions.png,Distribution of the three external credit scores by default status in the MSME proxy. Defaulted applicants show consistently lower scores on all three sources.
+1 EDA,eda_06_target_correlation.png,The 12 most negatively and 12 most positively correlated numeric main-table features with the default indicator in the MSME proxy.
+1 EDA,eda_07_subtable_coverage.png,"Proportion of the 38,412 MSME-proxy applicants that appear in each relational sub-table. Coverage determines which behavioural feature families can be built in Stage 2."
+3 Preprocessing,prep_01_smote_balance.png,Training-set class balance before/after SMOTE and a PCA view of the synthetic default cases.
+2 Feature engineering,fe_01_feature_family_contribution.png,Predictive contribution of each behavioural feature family (mutual information and tree importance).
+2 Feature engineering,fe_02_top_features_mi.png,Top 15 behavioural features by mutual information with default.
+2 Feature engineering,fe_03_raw_vs_behavioural_auc.png,5-fold ROC-AUC for raw vs behavioural vs combined feature sets.
+4 Modelling,model_01_roc_pr_curves.png,ROC and precision-recall curves for the three tuned models on the test set.
+4 Modelling,model_02_confusion_matrices.png,Confusion matrices at the 0.5 threshold for the three tuned models.
+4 Modelling,model_03_threshold_analysis.png,"Precision/recall/F1 vs decision threshold for XGBoost, with operating points marked."
+4 Modelling,model_04_metric_comparison.png,Model comparison across six evaluation metrics on the held-out test set.
+5 SHAP,shap_01_global_importance.png,"Top 20 features by mean |SHAP| for XGBoost, coloured by feature source."
+5 SHAP,shap_02_beeswarm.png,SHAP beeswarm summary showing effect direction and magnitude per feature.
+5 SHAP,shap_03_behavioural_importance.png,The 15 most influential behavioural features by mean |SHAP| (RQ1).
+5 SHAP,shap_04_waterfall_highrisk.png,SHAP waterfall for a high-risk borrower (predicted default prob 0.83).
+5 SHAP,shap_04_waterfall_lowrisk.png,SHAP waterfall for a low-risk borrower (predicted default prob 0.07).

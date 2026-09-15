@@ -1,0 +1,8 @@
+file,caption
+eda_01_class_imbalance_full.png,"Class distribution of the target variable in the full application population (n = 307,511); defaults represent 8.1% of cases."
+eda_02_default_rate_by_organisation.png,"Default rate by organisation type for categories with at least 2,000 applicants. The Self-employed group (highlighted) is the MSME proxy adopted for this study."
+eda_03_missingness_top25.png,The 25 features with the highest proportion of missing values in the MSME proxy sub-population. Building-information and external-score fields dominate.
+eda_04_key_distributions.png,"Kernel-density comparison of applicant age, employment length, annual income (log10) and requested credit amount (log10) between repaid and defaulted loans in the MSME proxy."
+eda_05_ext_source_distributions.png,Distribution of the three external credit scores by default status in the MSME proxy. Defaulted applicants show consistently lower scores on all three sources.
+eda_06_target_correlation.png,The 12 most negatively and 12 most positively correlated numeric main-table features with the default indicator in the MSME proxy.
+eda_07_subtable_coverage.png,"Proportion of the 38,412 MSME-proxy applicants that appear in each relational sub-table. Coverage determines which behavioural feature families can be built in Stage 2."

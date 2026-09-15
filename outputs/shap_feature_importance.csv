@@ -1,0 +1,105 @@
+,mean_abs_shap
+External credit score 2,0.37766513
+External credit score 3,0.23395124
+External credit score 1,0.18442395
+Loan-to-goods-price ratio,0.13609928
+Granted-to-requested amount ratio,0.12458289
+"Employment length (days, negative)",0.11427821
+Late instalment ratio,0.107233435
+Implied loan term (months),0.09333406
+Gender: female,0.09162631
+Number of past instalments,0.08574533
+Loan annuity,0.08530233
+Recent credit-card utilisation,0.07055259
+Education: higher,0.06623791
+Mean prior-application amount,0.05317448
+Prior-application refusal rate,0.05184529
+Goods price,0.04409759
+Days since last phone change,0.039578155
+Total bureau credit,0.037118375
+Bureau debt-to-credit ratio,0.03605329
+Length of credit history (days),0.035740044
+Region rating client w city,0.035504155
+Repay: days late std,0.034651052
+Days since last application,0.034018986
+Peak credit-card utilisation,0.033899162
+Own car age,0.031985722
+Flag own car n,0.030304065
+Prior-application approval rate,0.029331751
+Family status: married,0.026981898
+Annuity-to-income ratio,0.02471303
+Def 60 cnt social circle,0.024533456
+Active bureau credit lines,0.0234797
+Share of underpaid instalments,0.023421649
+Days since ID document issued,0.022939734
+"Age (days, negative)",0.021391045
+Bureau: debt total,0.020198628
+Mean payment-to-due ratio,0.01997847
+Max days late (instalments),0.019363288
+Months since last delinquency,0.018659916
+Name income type commercial associate,0.017403109
+Delinq: bureau max overdue amt,0.0169844
+Loan-to-income ratio,0.016927801
+Mean days late (instalments),0.016812826
+Days registration,0.0160284
+On-time instalment ratio,0.014914814
+Annual income,0.013616689
+Mean credit-card drawings,0.01358481
+Number of prior applications,0.012250775
+Loan amount,0.011997682
+Bureau: months of history,0.0111983875
+Mean instalment shortfall,0.0111582745
+Contract type: cash loan,0.011147699
+Mean prior-application credit,0.01070512
+Def 30 cnt social circle,0.010343974
+Region population relative,0.009730994
+Mean credit-card utilisation,0.0070662806
+Cardutil: cc months,0.006976365
+Number of delinquent months,0.006479682
+Share of active credit lines,0.0054913918
+Region rating,0.0047059907
+Delinq: dpd def months count,0.0046015824
+Cnt fam members,0.004272292
+Credit-card utilisation trend,0.0037378524
+Name family status single / not married,0.0036030437
+Worst days-past-due,0.003280719
+Flag own realty n,0.0026616296
+Name family status separated,0.0018070419
+Share of delinquent months,0.0014771105
+Delinq: dpd mean when late,0.0014250402
+Number of bureau credit lines,0.0011899729
+Name income type working,0.00091505516
+Shortfall: shortfall ratio max,0.00091081474
+Name housing type rented apartment,0.00076360774
+Name housing type with parents,0.00052286737
+Bureau: bb pastdue months,0.0004761981
+Name housing type house / apartment,0.0002916792
+Name family status civil marriage,0.00014211179
+Worst payment-to-due ratio,0.0
+Delinq: bureau lines overdue now,0.0
+Share of instalments 30+ DPD,0.0
+Delinq: bureau sum overdue now,0.0
+Bureau: share of past-due months,0.0
+Bureau: prolong total,0.0
+Bureau: max days overdue,0.0
+Cnt children,0.0
+Has payment shortfall history,0.0
+Has repay consistency history,0.0
+Has delinquency history,0.0
+Has credit utilisation history,0.0
+Name income type infrequent sklearn,0.0
+Name income type state servant,0.0
+Owns a car,0.0
+Flag own realty y,0.0
+Has prev app history,0.0
+Has bureau depth history,0.0
+Name contract type revolving loans,0.0
+Gender: male,0.0
+Name education type infrequent sklearn,0.0
+Name education type incomplete higher,0.0
+Name education type lower secondary,0.0
+Name education type secondary / secondary special,0.0
+Name housing type co-op apartment,0.0
+Name family status widow,0.0
+Name housing type office apartment,0.0
+Name housing type municipal apartment,0.0
